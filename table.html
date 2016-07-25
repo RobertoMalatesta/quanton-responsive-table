@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test</title>
+        <title>Responsive Table</title>
         <meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -43,9 +43,6 @@
                     border-right: 1px solid #000;
                     border-left: 1px solid #000;
                 }
-                div.table-responsive table tr th.option:nth-child(2) {
-                    
-                }
                 div.table-responsive table tr th.option:last-child {
                     border-bottom: 1px solid #000;
                 }
@@ -54,9 +51,6 @@
                     text-decoration: none;
                     cursor: pointer;
                     color: #fff;
-                }
-                div.table-responsive table tr th.option:active {
-                    /* any style when clicked */
                 }
                 div.table-responsive table tr th.active {
                     background-color: #f2f2f2;
@@ -190,10 +184,24 @@
                     }
                 };
                 
+                var paintResponsiveTable = function() {
+                    if (($(window).width() < 767)) {
+                        $this = $("div.table-responsive table tr th.closed")[0];
+                        $($this).removeClass('closed');
+                        responsiveTable();
+                    }
+                    else {
+                        $("div.table-responsive table tr th:not(.selected)").css("display", "table-cell");
+                        $("div.table-responsive table tr td").css("display", "table-cell");
+                    }
+                };
+                
+                $(window).on('resize', function(){
+                    paintResponsiveTable();
+                });
+                
                 $("div.table-responsive table tr.options").prepend('<th class="selected">Select</th>');
-                $this = $("div.table-responsive table tr th.closed")[0];
-                $($this).removeClass('closed');
-                responsiveTable();
+                paintResponsiveTable();
                 
                 $('.option').on('click', function() {
                     $this = this;
