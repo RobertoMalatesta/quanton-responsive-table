@@ -35,7 +35,7 @@ Released under the MIT license - http://opensource.org/licenses/MIT
 <link href="table.responsive.carousel.css" rel="stylesheet" />
 ```
 
-###Step 2: Add a class and a id of your choice to the table
+###Step 2: Add a class and an (id of your choice) to the table
 **For the select**
 add a `class="t-r-s" id="my-table-1"` to the table. The id can have any value, the class must be `class="t-r-s"`.
 **For the carousel**
@@ -63,6 +63,17 @@ Since only one column is visible, the scripts permits you to change the order of
 <th class='h-a'> 
   Third 
 </th>
+```
+
+There can be used multiple tables in the same page. Just use different ids and use the right javascript
+
+```javascript
+$(document).ready(function(){
+  var responsiveTableCarousel1 = new ResponsiveTableCarousel('my-table-carousel-1');
+  var responsiveTableCarousel2 = new ResponsiveTableCarousel('my-table-carousel-2');
+  var responsiveTableSelect1 = new ResponsiveTableSelect('my-table-select-1');
+  var responsiveTableSelect2 = new ResponsiveTableSelect('my-table-select-2');
+});
 ```
 
 Enjoy.
