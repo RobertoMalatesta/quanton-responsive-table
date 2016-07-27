@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Responsive Carousel Table Gallery for Mobile</title>
+        <title>Image Gallery for Mobile with Responsive Table</title>
         <meta content="responsive table gallery, responsive carousel table gallery, jquery css responsive table gallery, responsive table mobile gallery" name="keywords">
         <meta content="Responsive table gallery, single column gallery visible for mobile, scroll between columns using a carousel or a select" name="description">
         <meta content="Dott. Anton Duoda" name="author">
@@ -33,8 +33,8 @@
         </style>
     </head>
     <body>
-        <h1>Table responsive in image gallery</h1>
-        <h2>Table responsive carousel in image gallery</h2>
+        <h1>Image gallery with Table responsive</h1>
+        <h2>Image gallery with Table responsive carousel</h2>
         <table id="my-table-carousel-1" class="t-r-c">
             <tbody>
                 <tr>
@@ -73,7 +73,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2>Table responsive select in image gallery</h2>
+        <h2>Image gallery with Table responsive select</h2>
         <table id="my-table-select-1" class="t-r-s">
             <tbody>
                 <tr>
