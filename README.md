@@ -1,6 +1,6 @@
 #quanton-responsive-table
 ##Responsive table solutions for mobile applications
---------------------------------------
+
 ###Why should I use this solution?
 Two easy solutions for the problem of using tables with small screens on mobile phones. 
 These solutions transforms an HTML table from multi column to single column. 
