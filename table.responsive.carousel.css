@@ -3,6 +3,10 @@ code {
     padding: 2px;
     display: inline-block;
     margin: 2px;
+    white-space: normal;
+    max-width: 90%;
+    overflow-x: scroll;
+    vertical-align: middle;
 }
 
 table.t-r-c {
