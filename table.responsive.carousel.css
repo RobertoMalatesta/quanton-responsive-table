@@ -5,7 +5,7 @@ code {
     margin: 2px;
     white-space: normal;
     max-width: 90%;
-    overflow-x: scroll;
+    overflow-x: auto;
     vertical-align: middle;
 }
 
