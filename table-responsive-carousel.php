@@ -4,7 +4,7 @@
         <title>Responsive Carousel Table for Mobile</title>
         <meta content="responsive table, responsive carousel table, jquery css responsive table, responsive table mobile" name="keywords">
         <meta content="Responsive table, single column visible for mobile, scroll between columns using a carousel" name="description">
-        <meta content="Dott. Anton Duoda" name="author">
+        <meta content="Quanton81" name="author">
         <meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link href="table.responsive.carousel.css" rel="stylesheet" />
