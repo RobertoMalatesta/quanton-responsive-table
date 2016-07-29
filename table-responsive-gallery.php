@@ -4,7 +4,7 @@
         <title>Image Gallery for Mobile with Responsive Table</title>
         <meta content="responsive table gallery, responsive carousel table gallery, jquery css responsive table gallery, responsive table mobile gallery" name="keywords">
         <meta content="Responsive table gallery, single column gallery visible for mobile, scroll between columns using a carousel or a select" name="description">
-        <meta content="Dott. Anton Duoda" name="author">
+        <meta content="Quanton81" name="author">
         <meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link href="table.responsive.carousel.css" rel="stylesheet" />
