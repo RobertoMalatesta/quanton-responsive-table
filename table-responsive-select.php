@@ -4,7 +4,7 @@
         <title>Responsive Select Table for Mobile</title>
         <meta content="responsive table, responsive select table, jquery css responsive table, responsive table mobile" name="keywords">
         <meta content="Responsive table, single column visible for mobile, scroll between columns using a select" name="description">
-        <meta content="Dott. Anton Duoda" name="author">
+        <meta content="Quanton81" name="author">
         <meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link href="table.responsive.select.css" rel="stylesheet" />
