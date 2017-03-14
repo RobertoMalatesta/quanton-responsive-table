@@ -8,14 +8,7 @@ To view the other columns, these solutions use a select or a carousel placed on 
 
 For examples, visit:
 
-[Quanton-table-responsive-carousel](http://www.ciaomondo.it/code/quanton-responsive-table/table-responsive-carousel.php)
-
-[Quanton-table-responsive-select](http://www.ciaomondo.it/code/quanton-responsive-table/table-responsive-select.php)
-
-And some nice aplications. 
-You can use the Responsive table to create a gallery. Have a look.
-
-[Quanton-table-responsive-gallery](http://www.ciaomondo.it/code/quanton-responsive-table/table-responsive-gallery.php)
+[Quanton-table-responsive-carousel](http://www.ciaomondo.it/blog/tabella-responsive-carosello.php)
 
 ###License
 Released under the MIT license - http://opensource.org/licenses/MIT
