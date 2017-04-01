@@ -1,7 +1,7 @@
-#quanton-responsive-table
-##Responsive table solutions for mobile applications
+# quanton-responsive-table
+## Responsive table solutions for mobile applications
 
-###Why should I use this solution?
+### Why should I use this solution?
 Two easy solutions for the problem of using tables with small screens on mobile phones. 
 These solutions transforms an HTML table from multi column to single column. 
 To view the other columns, these solutions use a select or a carousel placed on the table cell headers.
@@ -10,12 +10,12 @@ For examples, visit:
 
 [Quanton-table-responsive-carousel](http://www.ciaomondo.it/blog/tabella-responsive-carosello.php)
 
-###License
+### License
 Released under the MIT license - http://opensource.org/licenses/MIT
 
-##Installation
+## Installation
 
-###Step 1: Link required files
+### Step 1: Link required files
 **For the select**
 ```html
 <!-- jQuery library (served from Google) -->
@@ -35,13 +35,13 @@ Released under the MIT license - http://opensource.org/licenses/MIT
 <link href="table.responsive.carousel.css" rel="stylesheet" />
 ```
 
-###Step 2: Add a class and an (id of your choice) to the table
+### Step 2: Add a class and an (id of your choice) to the table
 **For the select**
 add a `class="t-r-s" id="my-table-1"` to the table. The id can have any value, the class must be `class="t-r-s"`.
 **For the carousel**
 add a `<table class="t-r-c" id="my-table-1">` to the table. The id can have any value, the class must be `class="t-r-c"`.
 
-###Step 3: On document ready call
+### Step 3: On document ready call
 **For the select**
 ```javascript
 $(document).ready(function(){
@@ -55,7 +55,7 @@ $(document).ready(function(){
 });
 ```
 
-##Configuration options
+## Configuration options
 
 Since only one column is visible, the scripts permits you to change the order of the column viewed at first. To accomplish this add `class="h-a"` to the `<th>` that you like. If you place the class to the third `<th>` the visible column whould be the third. This configuration works for both of the scripts, **select** and **carousel**.
 
